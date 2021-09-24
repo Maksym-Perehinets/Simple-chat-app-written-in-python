@@ -19,7 +19,7 @@ while True:
         else:
             for i in message:
                 mesto = alfavit_EN.find(i)
-                new_mesto = mesto + krok               #тесаме тіки з англ мовою
+                new_mesto = mesto + krok               #тесаме тіки з англ мовою1
                 if i in alfavit_EN:
                     itog += alfavit_EN[new_mesto]
                 else:
