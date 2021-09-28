@@ -1,4 +1,4 @@
-z =77**6
+z =7
 print('if you want add num enter 1',
              'substarction enter 2 ',
              'multiplying enter 3',
@@ -20,7 +20,7 @@ def div(a, b):
         print('eror')
 
 add(4,5)
-while z == 77**6:
+while z == 7:
     oper = int(input('enter hire '))
     num1 = float(input('enter your number'))
     num2 = float(input('enter your number'))
@@ -32,7 +32,7 @@ while z == 77**6:
        mult(num1,num2)
     elif oper == 4:
         div(num1,num2 )
-    z = input('To exit enter any namber') or  77**6
+    z = input('To exit enter any namber') or  7
 else:
     print('thx for using code')
 
