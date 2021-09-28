@@ -19,12 +19,13 @@ def div(a, b):
     else:
         print('eror')
 
-add(4,5)
 while z == 7:
+  
     oper = int(input('enter hire '))
     num1 = float(input('enter your number'))
     num2 = float(input('enter your number'))
-    if oper == 1:
+   
+  if oper == 1:
         add(num1,num2)
     elif oper == 2:
         sub(num1, num2)
