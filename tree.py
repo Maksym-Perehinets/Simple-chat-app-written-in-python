@@ -12,7 +12,7 @@ while key == 1:
         print(letter, '=', a.count(letter))
 
     else:
-
-        result = str(sorted(a.split(), key=str.lower))
-        z = result.translate({ord(i): None for i in "[]''"})
+        new_string = ' '.join([w for w in a.split() if len(w) > 3])
+        result = str(sorted(new_string.split(), key=str.lower))
+        z = result.translate({ord(i): None for i in "[]''/"})
         print(z.translate(({ord(i): '\n' for i in ","})))
