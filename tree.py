@@ -8,7 +8,7 @@ while key == 1:
 
     if beta == 1:
 
-        letter = input("Enter character which you want to count ")          #підрахунок букв
+        letter = input("Enter character which you want to count ")          #підрахунок букв 
         print(letter, '=', a.count(letter))
 
     elif beta == 2:
