@@ -3,12 +3,12 @@ key = 1
 while key == 1:
     print("Виберіть дію.", "Введіть 1 для підрахунку букв.", "Введіть 2 для сортування слів в алфавітному порядку.", sep='\n')
     beta = int(input("Виберіть дію "))
-    a = input("Ведіть бажане слово або речення ")               
+    a = input("Ведіть бажане слово або речення ")               #
     count = len(a)
 
     if beta == 1:
 
-        letter = input("Enter character which you want to count ")          #підрахунок букв 
+        letter = input("Enter character which you want to count ")          #підрахунок букв
         print(letter, '=', a.count(letter))
 
     elif beta == 2:
